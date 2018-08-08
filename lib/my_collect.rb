@@ -10,6 +10,6 @@ end
 
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-array.do |name|
+array.each do |name|
   name.split(" ").first
 end
